@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "e0624101-8104-49ca-bb80-74955cd0b351",
+		"name": "crud-buy-pulsa-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18115359"
+	},
+	"item": [
+		{
+			"name": "insertDataPulsa",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "manage",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Administrator",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\":\"Junid\",\r\n    \"pulsa\":\"34000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5555/restv2/servicePulsa:restDataPulsa/insertData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5555",
+					"path": [
+						"restv2",
+						"servicePulsa:restDataPulsa",
+						"insertData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDataPulsa",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "updateDataPulsa",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "buyPulsa",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
