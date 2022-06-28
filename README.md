@@ -1,6 +1,10 @@
 # crud-using-webmethod
 Simple CRUD using webMethod by SoftwareAg 
 
+Prerequisite
+1. You must be install db local
+2. You must be install IS & Designer
+
 Steps
 
 1. Create Table Pulsa
